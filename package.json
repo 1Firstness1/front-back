@@ -1,0 +1,45 @@
+{
+  "name": "front-back",
+  "version": "322.1.1.1",
+  "description": "good subject but very boring",
+  "scripts": {
+    "pr1": "open practice-1/index.html",
+    "pr2": "node practice-2/app.js",
+    "pr3": "node practice-3/server.js",
+    "pr4": "node practice-4/backend/server.js & cd practice-4 && react-scripts start",
+    "pr5": "node practice-5/backend/app.js & cd practice-5/frontend && react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Firstness1/front-back.git"
+  },
+  "author": "Dovinchi Yaperdole",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.66.1",
+    "cors": "^2.8.5",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
